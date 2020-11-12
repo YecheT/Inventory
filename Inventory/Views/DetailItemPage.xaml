@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Inventory.Views.DetailItemPage" 
+             Title="Detailed Item">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="1*" />
+            </Grid.RowDefinitions>
+            <StackLayout Padding="10" Grid.Row="1">
+                <Label x:Name="item_number" Text="{Binding Entry.item_number}" HorizontalOptions="Center"
+                       AutomationProperties.IsInAccessibleTree="true"
+                       AutomationProperties.HelpText="Item Number" />
+                <Label x:Name="expire_date" Text="{Binding Entry.expire_Date, StringFormat='{0:M}'}" HorizontalOptions="Center"
+                       AutomationProperties.IsInAccessibleTree="true"
+                       AutomationProperties.HelpText="Expire Date" />
+                <Label x:Name="item_description" Text="{Binding Entry.item_description}" HorizontalOptions="Center"
+                       AutomationProperties.IsInAccessibleTree="true"
+                       AutomationProperties.HelpText="Item Description" />
+                <Label x:Name="item_id" Text="{Binding Entry.item_id}" HorizontalOptions="Center"
+                       AutomationProperties.IsInAccessibleTree="true"
+                       AutomationProperties.HelpText="Item Id" />
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

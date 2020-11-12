@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Inventory.Views.NewItemPage"
+             Title="New Entry">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Save"  Clicked="New_Clicked"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <TableView Intent="Form" >
+            <TableView.Root>
+                <TableSection>
+                    <EntryCell Label="Item_id" Text="{Binding item_id}" />
+                    <EntryCell Label="Item_number"  Text="{Binding item_number}" />
+                    <EntryCell Label="Item_description" Text="{Binding item_description}"/>
+                    <ViewCell x:Name="expireDatePicker">
+                        <StackLayout Orientation="Horizontal" Padding="20,0">
+                            <Label VerticalTextAlignment="Center">Expire Date</Label>
+                            <DatePicker MinimumDate="2020/01/01" Date="{Binding expire_date,Mode=TwoWay}" Format="yyyy/MM/dd"/>
+                        </StackLayout>
+                    </ViewCell>
+                    
+                </TableSection>
+            </TableView.Root>
+        </TableView>
+    </ContentPage.Content>
+</ContentPage>

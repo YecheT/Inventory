@@ -1,0 +1,16 @@
+C:\Users\yeche\source\repos\Inventory\Inventory\bin\Debug\netstandard2.0\Inventory.deps.json
+C:\Users\yeche\source\repos\Inventory\Inventory\bin\Debug\netstandard2.0\Inventory.dll
+C:\Users\yeche\source\repos\Inventory\Inventory\bin\Debug\netstandard2.0\ref\Inventory.dll
+C:\Users\yeche\source\repos\Inventory\Inventory\bin\Debug\netstandard2.0\Inventory.pdb
+C:\Users\yeche\source\repos\Inventory\Inventory\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\yeche\source\repos\Inventory\Inventory\obj\Debug\netstandard2.0\Inventory.AssemblyInfoInputs.cache
+C:\Users\yeche\source\repos\Inventory\Inventory\obj\Debug\netstandard2.0\Inventory.AssemblyInfo.cs
+C:\Users\yeche\source\repos\Inventory\Inventory\obj\Debug\netstandard2.0\Inventory.dll
+C:\Users\yeche\source\repos\Inventory\Inventory\obj\Debug\netstandard2.0\ref\Inventory.dll
+C:\Users\yeche\source\repos\Inventory\Inventory\obj\Debug\netstandard2.0\Inventory.pdb
+C:\Users\yeche\source\repos\Inventory\Inventory\obj\Debug\netstandard2.0\Inventory.csprojAssemblyReference.cache
+C:\Users\yeche\source\repos\Inventory\Inventory\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\yeche\source\repos\Inventory\Inventory\obj\Debug\netstandard2.0\Inventory.csproj.CoreCompileInputs.cache
+C:\Users\yeche\source\repos\Inventory\Inventory\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\yeche\source\repos\Inventory\Inventory\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\yeche\source\repos\Inventory\Inventory\obj\Debug\netstandard2.0\Views\DetailItemPage.xaml.g.cs
